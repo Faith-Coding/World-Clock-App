@@ -1,17 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="src/style.css">
-    <title>World Clock App</title>
-</head>
-<body>
-    <h1>World Clock App</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
+    <title>World Clock </title>
+  </head>
+  <body>
+    <div class="container">
+      <h1> 🌎 World Clock 🕰️</h1>
+      <select>
+        <option value="">Select a city...🔎</option>
+        <option value="">Chicago</option>
+        <option value="">Bangkok</option>
+        <option value="">Dawson</option>
+        <option value="">Moncton</option>
+        <option value="">Colombo</option>
+        <option value="">Oslo</option>
+        <option value="">Dakar</option>
+        <option value="">Juba</option>
+      </select>
+      <div class="city" id="los-angeles">
+        <div>
+        <h2>America/Los_Angeles </h2>
+        <div class="date">May 10 2023</div>
+        </div>
+        <div class="time">10:30:02 <small>AM</small></div>
+      </div>
+      <div class="city" id="pacific">
+        <div>
+        <h2>Canada/Pacific </h2>
+        <div class="date">May 10 2023</div>
+        </div>
+        <div class="time">10:30:02 <small>AM</small></div>
+      </div>
+      <div class="city" id="lagos">
+        <div>
+        <h2>Africa/Lagos </h2>
+        <div class="date">May 10 2023</div>
+        </div>
+        <div class="time">10:30:02 <small>AM</small></div>
+      </div>
+      <div class="city" id="berlin">
+        <div>
+        <h2>Europe/Berlin </h2>
+        <div class="date">May 10 2023</div>
+        </div>
+        <div class="time">10:30:02 <small>AM</small></div>
+      </div>
+      <div class="city" id="london">
+        <div>
+        <h2>Europe/London </h2>
+        <div class="date">May 10 2023</div>
+        </div>
+        <div class="time">10:30:02 <small>AM</small></div>
+      </div>
+      <div class="city" id="paris">
+        <div>
+        <h2>Europe/Paris </h2>
+        <div class="date">May 10 2023</div>
+        </div>
+        <div class="time">10:30:02 <small>AM</small></div>
+      </div>
+      <div class="city" id="barnaul">
+        <div>
+        <h2>Asia/Barnaul </h2>
+        <div class="date">May 10 2023</div>
+        </div>
+        <div class="time">10:30:02 <small>AM</small></div>
+      </div>
+      <div class="city" id="casey">
+        <div>
+        <h2>Antarctica/Casey </h2>
+        <div class="date">May 10 2023</div>
+        </div>
+        <div class="time">10:30:02 <small>AM</small></div>
+      </div>
+    </div>
 
-
-
-<script src="src/app.js"></script>
-</body>
+    <footer>
+      Coded 👩🏽‍💻 by <strong>Akhigbe Faith Omoighe</strong>
+      <a href="https://github.com/Faith-Coding/World-Clock-App"
+        >open sourced on GitHub</a
+      > and
+      <a href="https://world-clock-count.netlify.app/">Netlify</a>
+    </footer>
+    <script src="app.js"></script>
+  </body>
 </html>
